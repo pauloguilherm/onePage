@@ -19,7 +19,7 @@ body{
 
 header{
     background-color: var(--bgSite);
-    height: 480px;
+    height: 620px;
     display: flex;
 }
 
@@ -36,12 +36,14 @@ header{
 
 .article h1{
     margin-top: 100px;
+    color: var(--title)
 }
 
 .article p{
     margin-top: 70px;
     font-size: 13px;
     letter-spacing: 2px;
+    color: var(--text)
 }
 
 .button{
@@ -70,4 +72,45 @@ header{
 .container-logo img{
     margin-top: 20px;
     margin-right: 20px;
+}
+
+.container-cards{
+    background-color:var(--white) ;
+    height: 394px;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards{
+    height: 350px;
+    width: 280px;
+    margin-top: 100px;
+    margin-left: 60px;    
+    background-color: var(--white300);
+}
+
+.backgroundCard{
+    background-color: rgb(230, 66, 66);
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentCard{
+    height: 150px;
+}
+
+.contentCard h3{
+    margin-left: 20px;
+    height: 40px;
+    color: var(--title);
+    margin-top: 20px;
+}
+
+.contentCard p{
+    margin-left: 20px;
+    margin-top: 6px;
+    color: var(--text)
 }
