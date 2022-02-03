@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "LatoRegular";
+    src: url("../fontes/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "MerriWeather";
+    src: url("../fontes/Merriweather-Bold.ttf");
+}
+
+@font-face {
+    font-family: "MerriWeatherRegular";
+    src: url("../fontes/Merriweather-Regular.ttf");
+}
+
+body{
+    background-color: var(--bgSite);
+}
+
+header{
+    background-color: var(--bgSite);
+    height: 480px;
+    display: flex;
+}
+
+.article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    height: 540px;
+    font-family: "MerriWeatherRegular";
+    font-size: 20px;
+}
+
+.article h1{
+    margin-top: 100px;
+}
+
+.article p{
+    margin-top: 70px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.button{
+    margin-top: 70px;
+    width: 100px;
+    padding: 10px;
+    background-color: var(--buttonColor);
+    border-radius: 10%;
+    color: var(--white);
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: #100a5f;
+    cursor: pointer;
+}
+
+.container-logo{
+    width: 50%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logo img{
+    margin-top: 20px;
+    margin-right: 20px;
+}
