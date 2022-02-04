@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Page</title>
     <link rel="stylesheet" href="./variaveis.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header>
+
         <div class="article">
             <h1>Lorem upsum dolor<br>sit amet</h1>
             
@@ -21,9 +23,12 @@
         <div class="container-logo">
             <img src="./image/image.svg" alt="logo" title="logo">
         </div>
+
     </header>
+    
 
     <section>
+
         <div class="container-cards">
 
             <div class="cards">
@@ -63,12 +68,12 @@
                 </div>
 
             </div>
-
+            
         </div>
 
-        <div class="container-cards" style="margin:0; height: 500px;">
+        <div class="container-cards container-cards2">
 
-            <div class="cards">
+            <div class="cards cards2" >
                 <div class="backgroundCard" style="background-color: rgb(14, 233, 69);"></div>
                     <div class="contentCard">
 
@@ -81,7 +86,7 @@
             </div>
 
 
-            <div class="cards">
+            <div class="cards cards2">
 
                 <div class="backgroundCard" style="background-color: rgb(181, 199, 15);"></div>
                 <div class="contentCard">
@@ -94,7 +99,7 @@
                 </div>
             </div>
 
-            <div class="cards">
+            <div class="cards cards2">
                 <div class="backgroundCard" style="background-color: rgb(21, 35, 223);"></div>
                 <div class="contentCard">
 
@@ -108,7 +113,27 @@
             </div>
 
         </div>
+
     </section>
+
+    <footer>
+        <div class="container-content-footer">
+
+            <h3>Entre em contato</h3>
+
+            <form>
+                <input type="text" autocomplete="none" name="name" class="input" placeholder="Nome">
+
+                <input type="email" autocomplete="none" name="email" class="input" placeholder="Email">
+                
+                <input type="number" autocomplete="none" name="telefone" class="input" placeholder="Telefone">
+                
+                <textarea name="mensagem" autocomplete="none" class="input" placeholder="Mensagem"></textarea>
+                
+                <button class="button" class="input" style="width: 350px; margin: 20px;">Enviar Mensagem</button>
+            </form>
+        </div>
+    </footer>
 
 </body>
 </html>
