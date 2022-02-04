@@ -5,11 +5,12 @@
         justify-content: center;
         align-items: center;
         height: auto !important;
-        width: 100%;
+        width: 100vw !important;
     }
     .article{
         margin-left: 40px !important;
-        width: 100% !important;
+        margin-bottom: 30px !important;
+        width: 100vw !important;
         text-align: start;
     }
 
@@ -23,13 +24,16 @@
 
     .container-logo{
         width: 80% !important;
-        
+        height: 400px !important;
     }
     .cards{
         width: 80% !important;
         margin: 0px !important;
         margin-bottom: 50px !important;
         margin-top: 50px !important;
+    }
+    .container-cards{
+        width: 100vw !important;
     }
 
 }
