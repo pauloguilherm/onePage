@@ -28,7 +28,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     height: 540px;
     font-family: "MerriWeatherRegular";
     font-size: 20px;
