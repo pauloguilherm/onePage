@@ -13,6 +13,10 @@
         text-align: start;
     }
 
+    .article h1{
+        font-size: 30px;
+    }
+
     .article p{
         font-size: 10px !important;
     }
@@ -28,7 +32,4 @@
         margin-top: 50px !important;
     }
 
-    .container-cards{
-
-    }
 }
